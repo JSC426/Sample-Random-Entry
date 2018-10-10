@@ -1,7 +1,7 @@
 import numpy as np
 
 def index_check(index_j, array_test):
-"""checks if next entry in list/array exists"""
+"""checks if entry in list/array exists"""
     try:
         array_test[index_j]
         status = True 
