@@ -11,7 +11,7 @@ def index_check(index_j, array_test):
     return status
 
 def random_sample(long_array):
-"""randomly samples single entry from a list/array while only storing one entry"""
+"""randomly samples single entry uniformly from a list/array while only storing one entry"""
     stored_value = long_array[0]
     count = 1
     
